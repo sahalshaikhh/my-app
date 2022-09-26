@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.5f7c639e.css",
+    "main.js": "/my-app/static/js/main.d7b39023.js",
+    "static/js/787.28cb0dcd.chunk.js": "/my-app/static/js/787.28cb0dcd.chunk.js",
+    "static/media/ShananPortfolio.png": "/my-app/static/media/ShananPortfolio.bb793a257c27b4b5cce3.png",
+    "static/media/guessingGame.png": "/my-app/static/media/guessingGame.cd251bdaaff997516832.png",
+    "static/media/Flipkart.png": "/my-app/static/media/Flipkart.bdfe1522b327336def60.png",
+    "static/media/Portfolio.png": "/my-app/static/media/Portfolio.67bfb2b5e981f4bab9eb.png",
+    "static/media/TextUtiles.png": "/my-app/static/media/TextUtiles.b4af2bb27d8a95f9c57e.png",
+    "static/media/ToDoList.png": "/my-app/static/media/ToDoList.58a5735c4d1c58f153d3.png",
+    "index.html": "/my-app/index.html",
+    "main.5f7c639e.css.map": "/my-app/static/css/main.5f7c639e.css.map",
+    "main.d7b39023.js.map": "/my-app/static/js/main.d7b39023.js.map",
+    "787.28cb0dcd.chunk.js.map": "/my-app/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f7c639e.css",
+    "static/js/main.d7b39023.js"
+  ]
+}
