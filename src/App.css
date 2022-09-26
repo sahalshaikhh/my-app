@@ -1,0 +1,130 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.containerrr {
+  background-color: rgb(110, 26, 143) !important;
+  box-shadow: 2px 2px 2px black;
+}
+.navbar {
+  background-color: rgb(110, 26, 143) !important;
+}
+.navbar-brand {
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 2px black;
+  transition: 0.8s;
+  font-size: x-large;
+  letter-spacing: 5px;
+  font-family: "emoji", "monospace";
+}
+.navbar-brand:hover {
+  color: rgb(255, 0, 0);
+  /* letter-spacing: 0.1rem; */
+  scale: 1.11 1.11;
+}
+nav ul li a {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white !important;
+  text-shadow: 2px 2px 2px black;
+  font-weight: bold !important;
+}
+nav ul li a:hover {
+  color: rgb(120, 87, 195) !important;
+}
+.active {
+  font-weight: bolder !important;
+  border-bottom: 1px dashed rgb(255, 255, 255) !important;
+  color: rgb(120, 87, 195) !important;
+}
+.nav-item {
+  margin: 14px !important;
+}
+.Name {
+  text-shadow: 2px 1px 2px rgb(0, 0, 0);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.img {
+  animation: Up-Down 2s ease-in-out infinite alternate-reverse both;
+}
+@keyframes Up-Down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+.LinkToAbout {
+  text-decoration: none !important;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  font-weight: 500;
+}
+.LinkToAbout:hover {
+  color: aliceblue;
+  /* text-shadow: none; */
+}
+.gettingSocial {
+  font-family: "DynaPuff", cursive;
+  /* color: rgb(113, 42, 124); */
+  text-shadow: 2px 0px 2px rgb(0, 0, 0);
+  letter-spacing: 2px;
+  font-size: medium;
+}
+.Logos_Social a {
+  font-family: cursive, serif;
+  text-decoration: none;
+  color: black;
+  font-size: 0.6rem;
+}
+.Logos_Social a:hover {
+  text-decoration: underline;
+}
+.LinkedIn:hover {
+  color: rgb(42, 100, 167);
+}
+.Github:hover {
+  color: rgb(233, 128, 124);
+}
+.Instagram:hover {
+  color: red;
+}
+.EndMsg {
+  text-shadow: 2px 0px 2px black;
+  color: rgb(255, 255, 255);
+  letter-spacing: 1px;
+  font-size: 0.7rem;
+  display: block;
+  /* margin: 0px 32rem; */
+  background-color: rgba(90, 85, 85, 0.367);
+}
+.year {
+  font-size: xx-small;
+  text-align: left;
+  font-weight: bolder;
+  /* background-color: rgba(72, 69, 69, 0.73);
+  display: block;
+  color: white; */
+}
+/* .bottomHr {
+  width: 76px;
+} */
+.text-start {
+  letter-spacing: 3px;
+  font-family: " math";
+}
+@media only screen and (max-width: 480px) {
+  .navbar-brand {
+    /* color: rgb(43, 43, 111); */
+    transition: 0.8s;
+    font-size: small;
+    margin: -65px;
+    letter-spacing: 3px;
+    font-family: "emoji", "monospace";
+  }
+}
+@media (min-width: 768px) {
+  .bottomHr {
+    width: 76px;
+  }
+}
